@@ -1,36 +1,37 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
+# Sailan Tech Marketplace
 
-## Getting Started
+A branded electronics marketplace for Sailan Tech Solutions LLC, built with Next.js, React, TypeScript, libSQL and Stripe Checkout. The uploaded official logo is used without modification.
 
-First, run the development server:
+## Run locally
 
-```bash
+```sh
+npm ci
+npm run db:setup
 npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
 ```
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+Open the address printed by the development server. Sample catalog records are labeled and cannot be purchased. SQLite persists in `data/marketplace.db` (gitignored). Environment names are documented in `.env.example`; Node does not automatically load that file for the setup scripts, so supply the variables through your shell or environment manager.
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
+Create the owner account using `npm run admin:create` with `ADMIN_EMAIL` and `ADMIN_PASSWORD` supplied securely in the environment. No default login exists.
 
-This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
+## Included
 
-## Learn More
+- Responsive storefront, category/specification filters, search overlay, product variants/gallery, condition guide, favorites and persistent cart.
+- Seven-stage device quotation with editable model prices, configuration options, deductions, caps, inspection/revised offers and customer tracking.
+- Customer accounts, orders, addresses, profile, support, repairs and wholesale applications with private certificate uploads.
+- Server-protected admin products, inventory, photos, prices, quotes, inspections, external payment records, requests, customers, promos and store policies.
+- Server-priced stock reservations, Stripe-hosted checkout integration and signed, idempotent payment webhooks.
+- Real database schema, validation, rate limiting, hashed sessions, salted passwords, origin checks and audit records.
 
-To learn more about Next.js, take a look at the following resources:
+## Verify
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+```sh
+npm test
+npm run typecheck
+npm run build
+npm run test:integration
+```
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
+See [launch configuration](docs/launch.md) for production database/payment setup and precise integration limits. See [verification](docs/verification.md) for actual checks. The branch preview preserves the existing production website until the owner chooses to promote the marketplace.
 
-## Deploy on Vercel
-
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
-
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
+The full build brief is in `docs/marketplace-brief.txt`; design and implementation decisions are in `docs/superpowers/`. Generic showcase renders are illustrative sample artwork, with provenance in `docs/showcase-provenance.json`.

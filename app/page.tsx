@@ -1,232 +1,249 @@
 import Image from "next/image";
 import Link from "next/link";
-import ServicePlanSignup from "@/components/ServicePlanSignup";
-
-const trustItems = [
-  {
-    title: "FAST RESPONSE",
-    text: "Real people. Real support.",
-  },
-  {
-    title: "SECURE BY DESIGN",
-    text: "Your business stays protected.",
-  },
-  {
-    title: "MODERN WORKPLACES",
-    text: "Microsoft 365 & cloud support.",
-  },
-  {
-    title: "RELIABLE & LOCAL",
-    text: "Built for Metro Detroit businesses.",
-  },
-];
-
-const services = [
-  {
-    number: "01",
-    title: "IT SUPPORT",
-    text: "Fast, expert help for your everyday business technology.",
-    image: "/concept/service-it-support.png",
-  },
-  {
-    number: "02",
-    title: "MICROSOFT 365",
-    text: "Email, Teams, OneDrive, setup, training, and support.",
-    image: "/concept/service-m365.png",
-  },
-  {
-    number: "03",
-    title: "NETWORK & WI-FI",
-    text: "Reliable office networks, better connectivity, and fewer problems.",
-    image: "/concept/service-network.png",
-  },
-  {
-    number: "04",
-    title: "EMPLOYEE ONBOARDING",
-    text: "Accounts, email, devices, and permissions set up properly.",
-    image: "/concept/service-onboarding.png",
-  },
-  {
-    number: "05",
-    title: "WEBSITE DEVELOPMENT",
-    text: "Modern business websites designed to help you grow online.",
-    image: "/concept/service-web.png",
-  },
-  {
-    number: "06",
-    title: "COMPUTER SOLUTIONS",
-    text: "Setups, upgrades, repairs, and long-term support for your systems.",
-    image: "/concept/service-computer.png",
-  },
-];
-
-const process = [
-  {
-    step: "01",
-    title: "Start by email",
-    text: "You send the business details, problem, or project so we understand the need first.",
-  },
-  {
-    step: "02",
-    title: "We review the fit",
-    text: "We look at the support request, website project, or technology goals and respond clearly.",
-  },
-  {
-    step: "03",
-    title: "Call after interest",
-    text: "Once there is a real fit, we move to a call or visit and discuss the best next step.",
-  },
-];
-
-export default function Home() {
+import {
+  ArrowRight,
+  ArrowUpRight,
+  Smartphone,
+  Laptop,
+  Gamepad2,
+  Tablet,
+  Monitor,
+  Headphones,
+  ShieldCheck,
+  PackageCheck,
+  RefreshCw,
+} from "lucide-react";
+import { getProducts } from "@/lib/database";
+import { artwork } from "@/lib/catalog";
+import { ProductCard } from "@/components/marketplace/ProductCard";
+export default async function Home() {
+  const products = await getProducts();
   return (
-    <main className="concept-home">
-      <section className="concept-hero">
-        <div className="concept-grid-overlay" />
-
-        <div className="container concept-hero-grid">
-          <div className="concept-copy">
-            <p className="concept-kicker">SMART TECHNOLOGY. STRONGER BUSINESS.</p>
-
-            <h1 className="concept-title">
-              <span className="light">PREMIUM IT SUPPORT.</span>
-              <span className="gold">MODERN DIGITAL SOLUTIONS.</span>
+    <>
+      <section className="hero">
+        <div className="wrap hero-inner">
+          <div className="hero-copy">
+            <p className="eyebrow">THE SAILAN TECH MARKETPLACE</p>
+            <h1>
+              Premium tech.
+              <br />
+              <span>Better value.</span>
             </h1>
-
-            <p className="concept-lead">
-              Sailan Tech Solutions LLC delivers secure, reliable, and modern IT
-              support for businesses of every size. From Microsoft 365 and
-              networking to websites and employee onboarding, we keep your
-              technology running so you can focus on growth.
+            <p className="hero-description">
+              A new home for the tech you want.
+              <br />A next chapter for the tech you own.
             </p>
-
-            <div className="concept-cta-row">
-              <Link href="/free-it-checkup" className="concept-primary-button">
-                Get a Free Checkup <b>→</b>
+            <div className="actions">
+              <Link className="button blue" href="/shop">
+                Shop devices <ArrowUpRight size={18} />
               </Link>
-
-              <Link href="/about" className="concept-story-link">
-                <span className="play-ring">
-                  <i>▶</i>
-                </span>
-                <span>
-                  <strong>Watch Our Story</strong>
-                  <small>Why businesses trust us</small>
-                </span>
+              <Link className="text-link light" href="/sell">
+                Sell to Sailan Tech <ArrowRight size={17} />
               </Link>
             </div>
-
-            <div className="concept-trust-grid">
-              {trustItems.map((item) => (
-                <div className="concept-trust-item" key={item.title}>
-                  <span className="concept-trust-icon">✦</span>
-                  <div>
-                    <strong>{item.title}</strong>
-                    <small>{item.text}</small>
-                  </div>
-                </div>
-              ))}
+            <div className="hero-bottom">
+              <span>PHONES. COMPUTERS. GAMING.</span>
+              <span>01 / THE COLLECTION</span>
             </div>
           </div>
-
-          <div className="concept-visual">
-            <div className="concept-visual-frame">
-              <div className="concept-visual-glow concept-visual-glow-a" />
-              <div className="concept-visual-glow concept-visual-glow-b" />
-              <Image
-                src="/concept/hero-scene.png"
-                alt="Sailan Tech premium IT support hero scene"
-                width={960}
-                height={518}
-                className="concept-hero-image"
-                priority
-              />
-            </div>
+          <div className="hero-art">
+            <Image
+              src={artwork.logo}
+              alt="Official Sailan Tech Solutions LLC PC and wordmark"
+              width={900}
+              height={900}
+              priority
+              sizes="(max-width: 760px) 100vw, 50vw"
+            />
           </div>
         </div>
       </section>
-
-      <section className="concept-services">
-        <div className="container">
-          <div className="concept-section-head">
-            <p className="concept-kicker center">WHAT WE DO</p>
-            <h2>SOLUTIONS THAT POWER MODERN BUSINESS</h2>
-            <p>
-              Comprehensive IT services designed to keep your business secure,
-              productive, and future-ready.
-            </p>
-          </div>
-
-          <div className="concept-card-grid">
-            {services.map((service) => (
-              <article className="concept-service-card" key={service.title}>
-                <div className="concept-service-image-wrap">
-                  <Image
-                    src={service.image}
-                    alt={service.title}
-                    width={280}
-                    height={132}
-                    className="concept-service-image"
-                  />
-                </div>
-
-                <div className="concept-service-content">
-                  <span className="concept-service-number">{service.number}</span>
-                  <h3>{service.title}</h3>
-                  <p>{service.text}</p>
-                  <Link href="/services" className="concept-service-link">
-                    Learn More <b>→</b>
-                  </Link>
-                </div>
-              </article>
-            ))}
-          </div>
-        </div>
+      <section className="category-strip wrap" aria-label="Shop categories">
+        {[
+          [Smartphone, "iPhone", "iphone"],
+          [Tablet, "iPad & tablets", "tablets"],
+          [Laptop, "MacBook", "macbook"],
+          [Monitor, "Computers", "computers"],
+          [Gamepad2, "Gaming", "gaming"],
+          [Headphones, "Accessories", "accessories"],
+        ].map(([Icon, label, slug]) => {
+          const I = Icon as typeof Smartphone;
+          return (
+            <Link href={`/shop/${slug}`} key={String(slug)}>
+              <I size={27} strokeWidth={1.3} />
+              <span>{String(label)}</span>
+              <ArrowUpRight size={14} />
+            </Link>
+          );
+        })}
       </section>
-
-      <section className="concept-signup-section" id="signup">
-        <div className="container">
-          <ServicePlanSignup />
+      <section className="wrap section">
+        <div className="section-heading">
+          <div>
+            <p className="eyebrow">FIND YOUR EVERYDAY UPGRADE</p>
+            <h2>
+              Great tech. <span>Fresh possibilities.</span>
+            </h2>
+          </div>
+          <Link className="text-link" href="/shop">
+            Explore the shop <ArrowUpRight size={17} />
+          </Link>
         </div>
-      </section>
-
-      <section id="process" className="concept-process">
-        <div className="container">
-          <div className="concept-process-head">
-            <p className="concept-kicker center">HOW IT WORKS</p>
-            <h2>EMAIL-FIRST OUTREACH. CALLS ONLY AFTER INTEREST.</h2>
-            <p>
-              A cleaner sales process that respects your time and the client&apos;s time.
-            </p>
-          </div>
-
-          <div className="concept-process-grid">
-            {process.map((item) => (
-              <article className="concept-process-card" key={item.step}>
-                <span className="concept-process-step">{item.step}</span>
-                <h3>{item.title}</h3>
-                <p>{item.text}</p>
-              </article>
-            ))}
-          </div>
-
-          <div className="concept-bottom-cta">
+        <div className="showcase-grid">
+          <Link href="/shop/iphone" className="showcase-card">
             <div>
-              <p className="concept-kicker">READY TO START?</p>
-              <h3>Let&apos;s build your business technology the right way.</h3>
+              <p className="eyebrow">IPHONE</p>
+              <h3>
+                Everything you love.
+                <br />
+                More within reach.
+              </h3>
+              <span className="text-link">
+                Explore iPhone <ArrowRight size={17} />
+              </span>
             </div>
-
-            <div className="concept-bottom-actions">
-              <Link href="/contact" className="concept-primary-button">
-                Contact Sailan Tech <b>→</b>
-              </Link>
-              <Link href="/plans" className="concept-secondary-button">
-                View Plans
-              </Link>
+            <Image
+              src={artwork.phone}
+              alt="Original illustrative smartphone showcase"
+              width={900}
+              height={600}
+            />
+          </Link>
+          <Link href="/shop/macbook" className="showcase-card">
+            <div>
+              <p className="eyebrow">MACBOOK</p>
+              <h3>A brilliant next move.</h3>
+              <p>For the work. And everything after.</p>
+              <span className="text-link">
+                Explore Mac <ArrowRight size={17} />
+              </span>
             </div>
+            <Image
+              src={artwork.laptop}
+              alt="Original illustrative silver laptop showcase"
+              width={900}
+              height={600}
+            />
+          </Link>
+        </div>
+      </section>
+      <section className="gaming-banner">
+        <div className="wrap gaming-inner">
+          <div>
+            <p className="eyebrow">PLAY YOUR NEXT CHAPTER</p>
+            <h2>
+              Less waiting.
+              <br />
+              More playing.
+            </h2>
+            <p>Consoles, gaming PCs, and your next favorite accessory.</p>
+            <Link className="button white" href="/shop/gaming">
+              Explore gaming <ArrowUpRight size={18} />
+            </Link>
+          </div>
+          <Image
+            src={artwork.gaming}
+            alt="Original white and charcoal gaming controller illustration"
+            width={900}
+            height={600}
+          />
+        </div>
+      </section>
+      <section className="wrap section">
+        <div className="section-heading">
+          <div>
+            <p className="eyebrow">A LOOK INSIDE THE COLLECTION</p>
+            <h2>Worth a closer look.</h2>
+          </div>
+          <Link href="/deals" className="text-link">
+            Latest deals <ArrowUpRight size={17} />
+          </Link>
+        </div>
+        <div className="product-grid home-products">
+          {products
+            .filter((p) => p.featured)
+            .slice(0, 3)
+            .map((p) => (
+              <ProductCard key={p.id} product={p} />
+            ))}
+        </div>
+        <p className="catalog-note">
+          Sample listings and illustrative images. Live availability will be
+          confirmed before purchases open.
+        </p>
+      </section>
+      <section className="refurb-section wrap">
+        <div>
+          <p className="eyebrow">UNDERSTAND WHAT YOU’RE BUYING</p>
+          <h2>
+            Another life.
+            <br />
+            The same possibilities.
+          </h2>
+        </div>
+        <div>
+          <p className="large-copy">
+            From open box to refurbished, a clear condition grade helps you find
+            the right fit for your budget.
+          </p>
+          <Link className="text-link" href="/condition-guide">
+            Explore our grading guide <ArrowRight size={18} />
+          </Link>
+          <div className="grade-line">
+            <span>Open Box</span>
+            <span>Excellent</span>
+            <span>Good</span>
+            <span>Fair</span>
           </div>
         </div>
       </section>
-    </main>
+      <section className="sell-banner">
+        <div className="wrap">
+          <p className="eyebrow">SELL TO SAILAN TECH</p>
+          <h2>
+            Your old tech.
+            <br />
+            <span>Your next possibility.</span>
+          </h2>
+          <p>
+            Tell us about your device. See an instant estimate.
+            <br />
+            Decide what comes next.
+          </p>
+          <Link className="button blue" href="/sell">
+            Get my quote <ArrowUpRight size={18} />
+          </Link>
+          <small>Final offer confirmed after inspection.</small>
+        </div>
+      </section>
+      <section className="wrap trust-row">
+        {[
+          [
+            PackageCheck,
+            "Know your device",
+            "Clear condition grades and device details.",
+          ],
+          [
+            ShieldCheck,
+            "Buy with clarity",
+            "Review the device’s terms before checkout.",
+          ],
+          [
+            RefreshCw,
+            "Keep tech moving",
+            "Buy, sell, or request a repair in one place.",
+          ],
+        ].map(([Icon, title, copy]) => {
+          const I = Icon as typeof ShieldCheck;
+          return (
+            <div key={String(title)}>
+              <I size={27} strokeWidth={1.4} />
+              <h3>{String(title)}</h3>
+              <p>{String(copy)}</p>
+            </div>
+          );
+        })}
+      </section>
+    </>
   );
 }

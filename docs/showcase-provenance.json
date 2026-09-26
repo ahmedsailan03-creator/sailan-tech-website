@@ -1,0 +1,30 @@
+{
+  "mode": "built-in image_gen",
+  "purpose": "Illustrative category artwork for a clearly labeled sample catalog; not photographs of actual inventory.",
+  "generationCalls": 3,
+  "variants": 0,
+  "retries": 0,
+  "assets": [
+    {
+      "key": "laptop",
+      "filename": "sailan-showcase-laptop.png",
+      "source": "/workspace/scratch/4768cca2c673/generated_images/exec-4b0bb1bb-dc5e-425c-b55e-c1d5700bcb43.png",
+      "output": "/workspace/scratch/4768cca2c673/showcase-assets/sailan-showcase-laptop.png",
+      "prompt": "Use case: product-mockup\nAsset type: illustrative category artwork for a clearly labeled sample ecommerce catalog.\nPrimary request: a premium silver laptop open at an elegant three-quarter angle on a very light gray seamless studio background.\nSubject: one clean unbranded silver aluminum laptop, slim precise construction, dark screen showing only a minimal deep blue abstract wallpaper.\nStyle/medium: restrained photoreal studio product photography, highly realistic hardware and materials.\nComposition/framing: landscape 3:2 aspect ratio, full product visible, balanced centered composition with generous negative space.\nLighting/mood: soft controlled studio light, natural contact shadow, refined and quiet.\nConstraints: no brand, no logo, no text, no watermark, no humans, no decorative elements, no accessories. No graphic gradients outside physical studio lighting. Keep the screen artwork minimal and understated."
+    },
+    {
+      "key": "phones",
+      "filename": "sailan-showcase-phones.png",
+      "source": "/workspace/scratch/4768cca2c673/generated_images/exec-af5eb8ed-cae2-4dd3-a266-6bd103a7421a.png",
+      "output": "/workspace/scratch/4768cca2c673/showcase-assets/sailan-showcase-phones.png",
+      "prompt": "Use case: product-mockup\nAsset type: illustrative category artwork for a clearly labeled sample ecommerce catalog.\nPrimary request: two premium dark titanium smartphones on a very light gray seamless studio background, one showing its back cameras and the other showing its front screen.\nSubject: two clean unbranded phones with precise dark titanium construction. The front screen shows only an understated blue-black abstract wallpaper.\nStyle/medium: restrained photoreal studio product photography, highly realistic hardware and materials.\nComposition/framing: landscape 3:2 aspect ratio, both devices fully visible in an elegant balanced composition with generous negative space.\nLighting/mood: soft controlled studio light, natural contact shadows, refined and quiet.\nConstraints: no brand, no logo, no text, no watermark, no humans, no decorative elements, no accessories. No graphic gradients outside physical studio lighting. Keep the screen artwork minimal and understated."
+    },
+    {
+      "key": "controller",
+      "filename": "sailan-showcase-controller.png",
+      "source": "/workspace/scratch/4768cca2c673/generated_images/exec-790768f8-caef-4ec0-95f4-440c20727f1e.png",
+      "output": "/workspace/scratch/4768cca2c673/showcase-assets/sailan-showcase-controller.png",
+      "prompt": "Use case: product-mockup\nAsset type: illustrative category artwork for a clearly labeled sample ecommerce catalog.\nPrimary request: one premium white-and-charcoal game controller on a deep charcoal seamless studio background.\nSubject: a clean unbranded game controller with sculpted white grips and a charcoal central body, precise realistic thumbsticks and unmarked buttons.\nStyle/medium: restrained photoreal studio product photography, highly realistic hardware and materials.\nComposition/framing: landscape 3:2 aspect ratio, full controller visible at an elegant slight three-quarter angle, balanced composition with generous negative space.\nLighting/mood: controlled soft studio light with restrained blue edge light, refined and quiet.\nConstraints: no brand, no logo, no text, no watermark, no humans, no decorative elements, no accessories. No graphic gradients outside physical studio lighting."
+    }
+  ]
+}

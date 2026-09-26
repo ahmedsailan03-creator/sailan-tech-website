@@ -1,0 +1,1318 @@
+Build the ENTIRE production-ready ecommerce website for:
+
+SAILAN TECH MARKETPLACE
+
+Operated by:
+Sailan Tech Solutions LLC
+
+IMPORTANT:
+
+Do not only design a homepage.
+Do not only give me code snippets.
+Do not give me a mockup.
+Do not stop after creating the UI.
+
+I want you to build the complete working application from beginning to end.
+
+You have permission to:
+
+- create the entire project
+- create folders and files
+- install required packages
+- create reusable components
+- build frontend and backend architecture
+- create databases/schema where appropriate
+- build API routes
+- create authentication architecture
+- create admin tools
+- create shopping cart functionality
+- create the Sell to Sailan Tech system
+- create the instant quote engine
+- run the app
+- test the app
+- fix errors
+- visually inspect the website
+- improve the design
+- commit the project to the connected repository
+- deploy it through Vercel if those tools are available
+
+Do not keep asking me to manually create files if you have tools capable of doing it.
+
+Use the tools and integrations available to you to complete as much of the project yourself as possible.
+
+==================================================
+BRANDING
+==================================================
+
+Brand:
+SAILAN TECH
+
+Store:
+SAILAN TECH MARKETPLACE
+
+Company:
+SAILAN TECH SOLUTIONS LLC
+
+MY LOGO IS REQUIRED.
+
+Use the Sailan Tech logo file I provide you.
+
+The logo must appear in:
+
+- main navigation
+- mobile navigation
+- footer
+- login/account area
+- checkout where appropriate
+- emails/templates where appropriate
+- admin dashboard
+- browser favicon/app icon where technically appropriate
+
+Do not recreate my logo unless necessary.
+
+Use my actual uploaded logo asset.
+
+If the logo needs both light and dark treatments, create appropriate presentation styles without changing the core logo design.
+
+==================================================
+DESIGN QUALITY
+==================================================
+
+I DO NOT want an AI-looking website.
+
+The website must look like a premium technology brand designed by a professional design agency.
+
+Use Apple.com as inspiration for:
+
+- visual cleanliness
+- whitespace
+- product storytelling
+- typography
+- animations
+- product presentation
+- navigation
+- premium feeling
+- simplicity
+- responsive design
+- attention to detail
+
+DO NOT copy Apple's exact:
+
+- layouts
+- code
+- images
+- text
+- icons
+- animations
+- branding
+
+Create an ORIGINAL Sailan Tech design with similar attention to quality.
+
+Avoid common AI website styling:
+
+- random gradients
+- giant glowing cards
+- excessive glassmorphism
+- purple gradient backgrounds
+- fake futuristic graphics
+- huge rounded SaaS cards
+- cheesy copy
+- over-animation
+- unnecessary badges
+- generic startup sections
+- repetitive card grids
+
+The finished website should feel expensive, clean and intentional.
+
+==================================================
+COLORS
+==================================================
+
+Primary visual system:
+
+White
+Black
+Dark charcoal
+Light gray
+Sailan Tech blue
+
+Use Sailan Tech blue as an ACCENT.
+
+Do not make every section blue.
+
+Create both premium white sections and premium dark sections.
+
+==================================================
+TYPOGRAPHY
+==================================================
+
+Typography is extremely important.
+
+Use modern premium typography.
+
+Large clean headlines.
+
+Short copy.
+
+Strong hierarchy.
+
+Excellent spacing.
+
+Avoid generic bold startup typography.
+
+==================================================
+MAIN NAVIGATION
+==================================================
+
+Use my Sailan Tech logo on the left.
+
+Navigation:
+
+Shop
+iPhone
+iPad
+Mac
+Computers
+Gaming
+Accessories
+Deals
+Sell to Sailan Tech
+Repairs
+Wholesale
+Support
+
+Right side:
+
+Search
+Account
+Cart
+
+Sticky navigation.
+
+Minimal Apple-style behavior.
+
+Responsive mobile menu.
+
+==================================================
+HOMEPAGE
+==================================================
+
+Create a cinematic homepage.
+
+Hero example:
+
+Sailan Tech Marketplace
+
+Premium tech.
+Better value.
+
+Buttons:
+
+Shop Devices
+Sell to Sailan Tech
+
+Use a large premium product visual.
+
+Create subtle motion.
+
+Do not overcrowd the hero.
+
+Below the hero, create premium showcase sections for:
+
+iPhone
+MacBook
+Gaming
+Certified Refurbished
+Latest Deals
+Sell to Sailan Tech
+
+Use large imagery and minimal text.
+
+Alternate between white and dark product sections.
+
+==================================================
+WHAT WE SELL
+==================================================
+
+Support:
+
+iPhones
+Samsung phones
+Android phones
+iPads
+Android tablets
+MacBooks
+Windows laptops
+Gaming laptops
+Desktop PCs
+Gaming PCs
+Monitors
+Apple Watch
+Smartwatches
+PlayStation
+Xbox
+Nintendo
+Accessories
+Refurbished electronics
+Open-box electronics
+Repairable devices
+Cracked devices
+Wholesale lots
+
+==================================================
+SELL TO SAILAN TECH
+==================================================
+
+THIS IS ONE OF THE MOST IMPORTANT PARTS OF THE WEBSITE.
+
+Build a complete:
+
+SELL TO SAILAN TECH
+
+system.
+
+The customer should be able to receive an INSTANT ESTIMATED QUOTE for their device.
+
+Do not make this only a contact form.
+
+Build an actual step-by-step quote experience.
+
+Landing page headline example:
+
+Sell your tech.
+Get an instant estimate.
+
+Button:
+
+Get My Quote
+
+==================================================
+INSTANT QUOTE SYSTEM
+==================================================
+
+Create an intelligent quote workflow.
+
+STEP 1 — CATEGORY
+
+Ask:
+
+What are you selling?
+
+Options:
+
+iPhone
+Samsung
+Other Phone
+iPad
+Tablet
+MacBook
+Laptop
+Desktop
+Gaming PC
+PlayStation
+Xbox
+Nintendo
+Apple Watch
+Smartwatch
+Other Electronics
+
+==================================================
+STEP 2 — BRAND
+==================================================
+
+Examples:
+
+Apple
+Samsung
+Google
+Dell
+HP
+Lenovo
+Microsoft
+ASUS
+Acer
+Sony
+Nintendo
+Custom PC
+
+==================================================
+STEP 3 — MODEL
+==================================================
+
+Show relevant models dynamically based on category and brand.
+
+Example:
+
+iPhone 16 Pro Max
+iPhone 16 Pro
+iPhone 16
+iPhone 15 Pro Max
+etc.
+
+Add search functionality so the customer can find the model quickly.
+
+==================================================
+STEP 4 — SPECIFICATIONS
+==================================================
+
+Depending on device type ask for applicable specifications.
+
+Phones/tablets:
+
+Storage
+Carrier
+Unlocked status
+Color
+
+Computers:
+
+CPU
+RAM
+Storage
+GPU
+Screen size
+
+Consoles:
+
+Storage
+Edition
+Included controllers
+
+==================================================
+STEP 5 — CONDITION
+==================================================
+
+Ask simple customer-friendly condition questions.
+
+Examples:
+
+Does the device power on?
+
+Yes
+No
+
+Is the screen cracked?
+
+No
+Small crack
+Major crack
+Screen does not work
+
+Does touch work correctly?
+
+Yes
+No
+
+Does Face ID / Touch ID / fingerprint work?
+
+Yes
+No
+Not applicable
+
+Are there major scratches or dents?
+
+None
+Light
+Moderate
+Heavy
+
+Is the back glass cracked?
+
+Yes
+No
+
+Is there liquid damage?
+
+Yes
+No
+Not sure
+
+Is it carrier locked?
+
+Unlocked
+Locked
+Not sure
+
+Is Find My iPhone / Activation Lock disabled?
+
+Yes
+No
+Not sure
+
+Battery Health:
+
+90–100%
+80–89%
+Below 80%
+Unknown
+
+Ask device-specific questions automatically.
+
+==================================================
+STEP 6 — ACCESSORIES
+==================================================
+
+Ask what is included:
+
+Device only
+Original box
+Charging cable
+Power adapter
+Controller
+Keyboard
+Other accessories
+
+Accessories can slightly affect quote value where appropriate.
+
+==================================================
+STEP 7 — INSTANT ESTIMATE
+==================================================
+
+Generate an estimated offer.
+
+Example:
+
+Your Estimated Sailan Tech Offer
+
+$425
+
+Show:
+
+Estimated device value
+Condition adjustment
+Configuration adjustment
+Final estimated quote
+
+Buttons:
+
+Accept Quote
+Edit Device
+Start Over
+
+IMPORTANT:
+
+Clearly state that this is an ESTIMATED quote and final value may change after device inspection.
+
+Do not guarantee a final payment before inspection.
+
+==================================================
+QUOTE ENGINE
+==================================================
+
+Build the quote system so I can control pricing from the ADMIN DASHBOARD.
+
+I need to be able to set:
+
+Base device value
+
+Example:
+
+iPhone 15 Pro Max 256GB
+Base Buy Price: $520
+
+Then automatically adjust based on condition.
+
+Example logic:
+
+Excellent:
+100% of base
+
+Good:
+90%
+
+Fair:
+75%
+
+Cracked Screen:
+subtract configurable amount
+
+Back Glass Damage:
+subtract configurable amount
+
+Face ID Failure:
+subtract configurable amount
+
+Battery under 80%:
+subtract configurable amount
+
+Does Not Power On:
+apply repair/parts pricing
+
+Carrier locked:
+subtract configurable amount
+
+Activation locked:
+Do not accept device
+
+Allow me to customize ALL of these values from the admin dashboard.
+
+Do not hardcode the entire quote system in a way that requires editing code every time prices change.
+
+==================================================
+MARKET VALUE SUPPORT
+==================================================
+
+Design the architecture so future versions can compare:
+
+Recent sold prices
+Wholesale prices
+Our acquisition cost
+Our current inventory
+Repair cost
+Target profit margin
+
+Then calculate our maximum purchase offer.
+
+Example concept:
+
+Expected resale value
+minus marketplace fees
+minus shipping
+minus repair cost
+minus desired margin
+=
+maximum buy offer
+
+Build the system so this can be expanded later.
+
+==================================================
+AFTER CUSTOMER ACCEPTS QUOTE
+==================================================
+
+Collect:
+
+Full Name
+Email
+Phone
+Address
+Device IMEI or Serial Number where appropriate
+Preferred selling method
+
+Selling methods:
+
+Ship Device
+Local Drop-Off
+
+Create order/reference number.
+
+Example:
+
+ST-BUY-000184
+
+Customer sees:
+
+Quote accepted
+Next steps
+Shipping instructions
+Inspection process
+Estimated timeline
+
+==================================================
+SELL ORDER TRACKING
+==================================================
+
+Create statuses:
+
+Quote Created
+Quote Accepted
+Awaiting Device
+Device In Transit
+Device Received
+Inspection
+Revised Offer
+Offer Accepted
+Payment Processing
+Paid
+Completed
+Cancelled
+
+Customers should see these in their account.
+
+==================================================
+DEVICE INSPECTION
+==================================================
+
+Admin should be able to inspect the device and mark:
+
+Matches description
+
+OR
+
+Condition differs
+
+If condition differs, allow admin to send a revised offer.
+
+Example:
+
+Original Estimate
+$425
+
+Inspection Offer
+$380
+
+Reason:
+
+Battery Health Below 80%
+Heavy Frame Damage
+
+Customer can:
+
+Accept Revised Offer
+Decline Revised Offer
+
+==================================================
+PAYMENT SYSTEM FOR SELLERS
+==================================================
+
+Build architecture for seller payouts.
+
+Possible future options:
+
+ACH
+PayPal
+Business Check
+Other supported payout providers
+
+Do not create fake banking functionality.
+
+Create the workflow and admin controls so real payout integration can be added securely later.
+
+==================================================
+SHOP
+==================================================
+
+Build a complete ecommerce shop.
+
+Categories:
+
+Phones
+Tablets
+MacBooks
+Laptops
+Desktops
+Gaming
+Monitors
+Wearables
+Accessories
+Repair Devices
+Wholesale
+
+Filters:
+
+Brand
+Model
+Price
+Condition
+Storage
+RAM
+CPU
+GPU
+Carrier
+Color
+Availability
+
+Sorting:
+
+Featured
+Newest
+Price Low to High
+Price High to Low
+Best Selling
+
+==================================================
+PRODUCT PAGE
+==================================================
+
+Create premium product pages.
+
+Large image gallery.
+
+Product details.
+
+Example:
+
+Apple iPhone 16 Pro Max
+
+Storage:
+256GB
+512GB
+1TB
+
+Condition:
+Brand New
+Open Box
+Excellent
+Good
+Fair
+
+Carrier:
+Unlocked
+Verizon
+AT&T
+T-Mobile
+
+Color
+
+Quantity
+
+Price
+
+Buttons:
+
+Add to Cart
+Buy Now
+
+Also show:
+
+Shipping
+Returns
+Warranty
+Battery health
+IMEI status where appropriate
+What's included
+
+==================================================
+CONDITION GRADING
+==================================================
+
+Build a transparent grading guide:
+
+Brand New
+
+Open Box
+
+Excellent
+
+Good
+
+Fair
+
+Repair / Parts
+
+Explain exactly what customers should expect.
+
+==================================================
+CART
+==================================================
+
+Build working cart functionality.
+
+Support:
+
+Add item
+Remove item
+Change quantity
+Subtotal
+Estimated shipping
+Estimated tax architecture
+Promo codes
+Checkout
+
+==================================================
+CHECKOUT
+==================================================
+
+Build a premium checkout experience.
+
+Architecture should support:
+
+Stripe
+Apple Pay
+Google Pay
+PayPal
+
+Do not insert fake payment credentials.
+
+If API credentials are unavailable, build the checkout integration points correctly and document what is still required.
+
+==================================================
+CUSTOMER ACCOUNTS
+==================================================
+
+Customers should have:
+
+Orders
+Order tracking
+Sell to Sailan Tech quotes
+Devices being sold
+Payments
+Saved items
+Favorites
+Addresses
+Support
+Profile
+
+==================================================
+ADMIN DASHBOARD
+==================================================
+
+Create a secure Sailan Tech admin dashboard.
+
+Use the Sailan Tech logo.
+
+Dashboard should show:
+
+Today's revenue
+Weekly revenue
+Monthly revenue
+Orders
+Inventory
+Products sold
+Average order
+Sell-to-Sailan-Tech quotes
+Accepted quotes
+Devices awaiting inspection
+Repair requests
+Wholesale requests
+Low stock
+Customers
+
+==================================================
+ADMIN PRODUCTS
+==================================================
+
+Allow admin to:
+
+Add products
+Edit products
+Delete products
+Upload images
+Change prices
+Change inventory
+Mark item sold
+Create discounts
+Create featured products
+
+Product fields:
+
+SKU
+Brand
+Model
+Category
+Condition
+Storage
+RAM
+CPU
+GPU
+Color
+Carrier
+IMEI
+Serial Number
+Battery Health
+Cost
+Sale Price
+Quantity
+Supplier
+Purchase Date
+Images
+Description
+Specifications
+Weight
+Status
+
+Statuses:
+
+Available
+Reserved
+Sold
+Repair
+Incoming
+
+==================================================
+ADMIN QUOTE MANAGER
+==================================================
+
+Create a dedicated section:
+
+Sell to Sailan Tech
+
+Admin can manage:
+
+Device database
+Base purchase prices
+Condition deductions
+Repair deductions
+Minimum margin
+Maximum offer
+Quotes
+Accepted quotes
+Incoming devices
+Inspections
+Revised offers
+Payments
+Completed purchases
+
+Make this easy to update without changing code.
+
+==================================================
+WHOLESALE
+==================================================
+
+Build wholesale section.
+
+Products:
+
+Bulk phones
+Tablets
+MacBooks
+Laptops
+Repair lots
+Mixed electronics
+
+Create wholesale application.
+
+Fields:
+
+Business Name
+Name
+Email
+Phone
+Website
+Business Type
+Monthly Volume
+Products Interested In
+Resale Certificate
+Notes
+
+==================================================
+REPAIRS
+==================================================
+
+Create repair services.
+
+Phone Repair
+Tablet Repair
+Laptop Repair
+Computer Repair
+Console Repair
+
+Services:
+
+Screen
+Battery
+Charging Port
+Camera
+Back Glass
+Software
+Data Transfer
+Diagnostics
+
+Allow customer to request quote.
+
+==================================================
+SEARCH
+==================================================
+
+Create fast intelligent search.
+
+Examples:
+
+iPhone 15 Pro
+512GB unlocked
+M3 MacBook Pro
+Gaming laptop
+PS5
+Broken iPhone
+Samsung Ultra
+
+==================================================
+HOMEPAGE SEARCH
+==================================================
+
+Make search accessible directly from navigation.
+
+Create polished search overlay.
+
+==================================================
+DEALS
+==================================================
+
+Create:
+
+Deals
+Clearance
+Open Box
+Refurbished
+Bundles
+
+Keep premium branding.
+
+==================================================
+REVIEWS
+==================================================
+
+Build review functionality.
+
+DO NOT create fake reviews.
+
+Show empty / demo state clearly during development.
+
+==================================================
+TRUST
+==================================================
+
+Include:
+
+Secure Checkout
+Device Inspection
+Transparent Grading
+Fast Shipping
+Customer Support
+
+Do not make guarantees we cannot prove.
+
+==================================================
+ABOUT
+==================================================
+
+Explain:
+
+Sailan Tech Marketplace is operated by Sailan Tech Solutions LLC.
+
+Focus on:
+
+Reliable electronics
+Transparent condition grading
+Competitive pricing
+Simple buying
+Simple selling
+Customer service
+
+Do not invent company history.
+
+==================================================
+FOOTER
+==================================================
+
+Include:
+
+Shop
+Sell to Sailan Tech
+Repairs
+Wholesale
+About
+Support
+Shipping
+Returns
+Warranty
+Privacy
+Terms
+
+Show:
+
+Sailan Tech Solutions LLC
+
+Use the Sailan Tech logo.
+
+==================================================
+MOBILE
+==================================================
+
+Mobile experience is extremely important.
+
+Make it feel like a premium ecommerce application.
+
+Include:
+
+Fast menu
+Excellent product images
+Easy filters
+Sticky Add to Cart
+Fast Sell-to-Sailan-Tech quote flow
+Smooth forms
+Large touch targets
+
+==================================================
+ANIMATION
+==================================================
+
+Use subtle premium animations.
+
+Examples:
+
+Product image reveal
+Smooth scrolling
+Fade on scroll
+Small parallax effects
+Navigation transitions
+Gallery transitions
+Sticky storytelling
+
+Do not overdo animations.
+
+==================================================
+TECH STACK
+==================================================
+
+Preferred:
+
+Next.js
+React
+TypeScript
+Tailwind CSS
+
+Use Framer Motion only where it improves the design.
+
+Use a proper database architecture.
+
+Choose an appropriate production database and ORM if required.
+
+Structure the project professionally.
+
+==================================================
+SECURITY
+==================================================
+
+Do not expose:
+
+API keys
+Admin credentials
+Database secrets
+Payment keys
+
+Use environment variables.
+
+Protect admin routes.
+
+Validate forms.
+
+Sanitize inputs.
+
+Follow good authentication practices.
+
+==================================================
+SEO
+==================================================
+
+Create good SEO.
+
+URLs such as:
+
+/shop/iphone
+
+/shop/macbook
+
+/product/iphone-16-pro-max-256gb-unlocked
+
+/sell
+
+/sell/iphone
+
+/wholesale
+
+/repairs
+
+Add structured product metadata where appropriate.
+
+==================================================
+ACCESSIBILITY
+==================================================
+
+Build:
+
+Keyboard navigation
+Semantic HTML
+Good contrast
+Alt text support
+Focus states
+Accessible forms
+Correct labels
+
+==================================================
+PERFORMANCE
+==================================================
+
+Optimize:
+
+Images
+Fonts
+Animations
+JavaScript
+Lazy loading
+Caching
+Core Web Vitals
+
+==================================================
+TEST EVERYTHING
+==================================================
+
+DO NOT assume the website works just because the code compiles.
+
+Run it.
+
+Open it in a browser.
+
+Test:
+
+Homepage
+Navigation
+Shop
+Product
+Search
+Cart
+Sell to Sailan Tech
+Instant quote
+Customer account
+Admin dashboard
+Wholesale
+Repair form
+
+Test desktop.
+
+Test mobile.
+
+Check console.
+
+Fix errors.
+
+Check for:
+
+Broken layouts
+Bad spacing
+Overflow
+Missing images
+Broken buttons
+Dead links
+Poor mobile layout
+AI-looking sections
+Inconsistent fonts
+Slow animations
+
+Keep improving until the site looks professional.
+
+==================================================
+FINAL GOAL
+==================================================
+
+This should NOT feel like:
+
+A beginner ecommerce project
+A Shopify template
+An AI-generated website
+A school project
+
+It should feel like a professionally funded electronics marketplace.
+
+The final visual direction is:
+
+APPLE-LEVEL CLEANLINESS
+
++
+
+ORIGINAL SAILAN TECH BRANDING
+
++
+
+A REAL ELECTRONICS BUY / SELL PLATFORM
+
++
+
+AN INSTANT DEVICE QUOTE SYSTEM
+
+Start by inspecting the available development tools, my uploaded Sailan Tech logo, and the connected repository.
+
+Then build the entire application.
+
+Do not stop at the planning stage.
+
+BUILD IT.

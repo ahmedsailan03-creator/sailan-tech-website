@@ -39,3 +39,10 @@ yarn-error.log*
 # typescript
 *.tsbuildinfo
 next-env.d.ts
+
+# Local business data and operator secrets
+data/
+.env*
+!.env.example
+.vercel/
+*.tsbuildinfo
