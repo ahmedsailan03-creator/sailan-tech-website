@@ -74,8 +74,8 @@ export default function ResaleCalculatorPage(){
       </section>
     </div>
     <section className={styles.promo}>
-      <div><div className={styles.kicker}>FOR SERIOUS RESELLERS</div><h2>Need bulk supplier analysis?</h2><p>Resale Lab Pro adds CSV lot analysis, saved-deal comparisons, risk checklists and exports in an offline toolkit. Introductory price: $39. Purchases are handled manually until checkout is live.</p></div>
-      <a href="mailto:ahmed@sailantech.com?subject=Resale%20Lab%20Pro%20-%20Purchase%20Inquiry">Ask about the Pro toolkit ↗</a>
+      <div><div className={styles.kicker}>FOR SERIOUS RESELLERS</div><h2>Need bulk supplier analysis?</h2><p>Resale Lab Pro adds CSV lot analysis, saved-deal comparisons, risk checklists and exports in an offline toolkit. Proposed launch price: $19.99. Secure self-service checkout is not yet active.</p></div>
+      <Link href="/resale-lab-pro">Explore the Pro toolkit ↗</Link>
     </section>
     <p className={styles.fine}>Sample values are illustrative, not current marketplace fee quotes or verified sold prices. Estimates exclude applicable taxes and do not guarantee earnings. No accounts, uploaded data, or live market pricing are accessed. <Link className={styles.link} href="/">Back to Sailan Tech</Link>.</p>
   </div></main>;
