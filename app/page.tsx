@@ -105,13 +105,13 @@ export default function Home() {
                 Get a Free Checkup <b>→</b>
               </Link>
 
-              <Link href="/about" className="concept-story-link">
+              <Link href="/remote-it-help" className="concept-story-link">
                 <span className="play-ring">
-                  <i>▶</i>
+                  <i>✦</i>
                 </span>
                 <span>
-                  <strong>Watch Our Story</strong>
-                  <small>Why businesses trust us</small>
+                  <strong>$59 Remote IT Help</strong>
+                  <small>Up to 45 minutes · by appointment</small>
                 </span>
               </Link>
             </div>
