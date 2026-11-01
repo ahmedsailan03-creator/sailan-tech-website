@@ -55,6 +55,7 @@ export default function ServicesPage() {
             Practical IT support for small and growing businesses across Metro
             Detroit — with an email-first process and no random cold calls.
           </p>
+          <p style={{ marginTop: '24px' }}><Link className="primary-button" href="/remote-it-help">$59 Remote IT Help →</Link></p>
         </div>
       </section>
 
