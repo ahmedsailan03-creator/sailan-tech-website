@@ -7,7 +7,8 @@ export default function sitemap(): MetadataRoute.Sitemap {
     ["/free-it-checkup",0.7,"monthly"],
     ["/tools/resale-calculator",0.9,"monthly"],
     ["/resale-lab-pro",0.8,"monthly"],
-    ["/remote-it-help",0.8,"weekly"]
+    ["/remote-it-help",0.8,"weekly"],
+    ["/guides/electronics-resale-profit",0.8,"monthly"]
   ];
   return entries.map(([path,priority,changeFrequency])=>({
     url: base+path, priority, changeFrequency,
