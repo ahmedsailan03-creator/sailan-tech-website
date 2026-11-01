@@ -2,8 +2,8 @@
 .crumb{display:flex;gap:9px;color:#989ba4;font-size:12px}.crumb a{color:#dbb973;text-decoration:none}
 .hero{display:grid;grid-template-columns:minmax(0,1.35fr) minmax(320px,.85fr);gap:56px;padding:75px 0 85px;border-bottom:1px solid #30353e;align-items:center}
 .eyebrow,.rateEyebrow{color:#d6b677;font-size:11px;letter-spacing:.17em;font-weight:700}
-h1{font:650 clamp(46px,5.3vw,80px)/1.07 "Segoe UI",Arial,sans-serif;letter-spacing:-.06em;margin:18px 0 21px}
-h1 em{font-family:Georgia,serif;font-weight:400;font-style:italic;color:#debe85}.lead{color:#b7b9bc;max-width:620px;line-height:1.8;font-size:16px}
+.hero h1{font:650 clamp(46px,5.3vw,80px)/1.07 "Segoe UI",Arial,sans-serif;letter-spacing:-.06em;margin:18px 0 21px}
+.hero h1 em{font-family:Georgia,serif;font-weight:400;font-style:italic;color:#debe85}.lead{color:#b7b9bc;max-width:620px;line-height:1.8;font-size:16px}
 .pills{display:flex;flex-wrap:wrap;gap:9px;margin:28px 0}.pills span{border:1px solid #4d4435;border-radius:99px;padding:8px 12px;color:#d4c2a1;font-size:11px;background:#1e1c19}
 .actions{display:flex;gap:12px;flex-wrap:wrap;margin-top:32px}.actions a{font-size:12px;font-weight:700;text-decoration:none;padding:14px 17px;border-radius:9px}
 .primary{background:#e2c18a;color:#15130e!important}.secondary{border:1px solid #665338;color:#e4c991!important}
