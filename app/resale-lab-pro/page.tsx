@@ -10,6 +10,18 @@ export const metadata: Metadata = {
   openGraph: { title: "Resale Lab Pro | Electronics Profit and Bulk Deal Analyzer", description: "An offline browser toolkit for assessing electronics resale deals before buying inventory.", type: "website" }
 };
 
+const softwareSchema = {
+  "@context": "https://schema.org",
+  "@type": "SoftwareApplication",
+  name: "Resale Lab Pro",
+  applicationCategory: "BusinessApplication",
+  operatingSystem: "Modern desktop browser",
+  softwareVersion: "1.1",
+  url: "https://sailan-tech-website.vercel.app/resale-lab-pro",
+  description: "Offline electronics resale deal analyzer with bulk CSV import, fee and ROI estimates, saved deals and exports.",
+  publisher: { "@type": "Organization", name: "Sailan Tech Solutions LLC" }
+};
+
 const features = [
   { n:"01", title:"Bulk supplier lists", text:"Import a CSV of up to 2,000 rows and rank opportunities by estimated unit profit." },
   { n:"02", title:"Cost-aware estimates", text:"Factor in acquisition, percentage and fixed fees, shipping, repairs, and a returns reserve." },
@@ -19,6 +31,7 @@ const features = [
 
 export default function ProductPage(){
   return <main className={styles.page}>
+    <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(softwareSchema).replace(/</g, "\\u003c") }} />
     <div className={styles.wrap}>
       <nav className={styles.crumb} aria-label="Breadcrumbs"><Link href="/">Sailan Tech</Link><span>/</span><Link href="/tools/resale-calculator">Free tools</Link><span>/</span><strong>Resale Lab Pro</strong></nav>
       <header className={styles.hero}>
@@ -62,7 +75,7 @@ export default function ProductPage(){
       </section>
       <section className={styles.faq}>
         <h2>Clear expectations</h2>
-        <div><h3>Is it linked to Amazon, eBay or other marketplaces?</h3><p>No. CSV import and manual entry only. We do not represent a partnership with those platforms.</p></div>
+        <div><h3>Does it connect to any selling marketplaces?</h3><p>No. It uses CSV import and manual entry only; there are no marketplace integrations.</p></div>
         <div><h3>Does it calculate my real earnings automatically?</h3><p>No. It estimates profit from the purchase price, anticipated sale, and costs you enter. Returns, taxes, financing costs, actual fees and market changes may differ.</p></div>
         <div><h3>Can I resell this software?</h3><p>No. The license is for one purchasing business's internal use. You may not redistribute the code or files.</p></div>
         <div><h3>Can I buy it right now?</h3><p>A self-service checkout is not ready. Use the purchase inquiry link above, or start with our free calculator.</p></div>

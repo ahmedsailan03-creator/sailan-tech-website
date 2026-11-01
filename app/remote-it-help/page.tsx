@@ -5,7 +5,18 @@ import styles from "./remote.module.css";
 export const metadata: Metadata={
 title:"Remote IT Help — Flat $59 Support Session | Sailan Tech",
 description:"Request a flat-rate $59 remote Windows, Microsoft 365, printer, and home-office troubleshooting session from Sailan Tech. By appointment, email-first.",
-alternates:{canonical:"https://sailan-tech-website.vercel.app/remote-it-help"}
+alternates:{canonical:"https://sailan-tech-website.vercel.app/remote-it-help"},
+openGraph:{title:"$59 Remote IT Help | Sailan Tech Solutions",description:"Request a flat-rate remote Windows, Outlook, Wi-Fi or printer troubleshooting session by email.",type:"website"}
+};
+
+const serviceSchema = {
+  "@context": "https://schema.org",
+  "@type": "Service",
+  name: "Flat-Rate Remote IT Help",
+  serviceType: "Remote computer and small-business IT troubleshooting",
+  description: "Email-first booking for a $59 remote IT support session of up to 45 minutes, subject to availability and scope confirmation.",
+  url: "https://sailan-tech-website.vercel.app/remote-it-help",
+  provider: { "@type": "Organization", name: "Sailan Tech Solutions LLC" }
 };
 
 const services=[
@@ -15,7 +26,7 @@ const services=[
 ["Small-business technology","Basic IT configuration, software installation and desktop productivity fixes"]
 ];
 export default function RemoteITHelp(){
-return <main className={styles.page}><div className={styles.wrap}>
+return <main className={styles.page}><script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(serviceSchema).replace(/</g, "\\u003c") }} /><div className={styles.wrap}>
 <div className={styles.crumb}><Link href="/">Sailan Tech</Link><span>/</span> Remote IT Help</div>
 <section className={styles.hero}>
 <div className={styles.mainCol}>
