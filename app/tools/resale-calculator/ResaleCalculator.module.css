@@ -1,0 +1,40 @@
+
+.wrap{background:#0b0d12;color:#f4f2ed;min-height:100vh;font-family:Arial,sans-serif;padding:76px 22px 110px}
+.inner{max-width:1140px;margin:auto}
+.kicker{text-transform:uppercase;letter-spacing:.22em;color:#d4b372;font-size:11px;font-weight:700;margin-bottom:18px}
+.hero{display:grid;grid-template-columns:minmax(0,1fr) 220px;align-items:center;gap:26px;border-bottom:1px solid #323640;padding-bottom:48px}
+.hero h1{font-size:clamp(38px,5.5vw,67px);letter-spacing:-.055em;font-weight:650;line-height:1.07;margin:0}
+.hero h1 em{color:#ddbc7b;font-family:Georgia,serif;font-style:normal;font-weight:400}
+.hero p{max-width:660px;margin:20px 0 0;color:#a6aab3;font-size:16px;line-height:1.7}
+.heroMark{display:flex;align-items:center;justify-content:center;min-height:180px;border:1px solid #463b26;border-radius:24px;background:radial-gradient(circle,#352818,#13151b 67%);font:italic 120px Georgia,serif;color:#d4b372}
+.badges{display:flex;gap:9px;flex-wrap:wrap;margin-top:22px}
+.badges span{padding:7px 11px;border:1px solid #414049;background:#181b22;color:#c9cbd2;border-radius:40px;font-size:12px}
+.layout{display:grid;grid-template-columns:minmax(0,1.05fr) minmax(310px,.95fr);gap:18px;margin-top:36px}
+.panel{padding:29px;border:1px solid #2b303a;background:#14181f;border-radius:18px}
+.panel h2{font-size:21px;letter-spacing:-.025em;margin:0 0 8px;font-weight:650}
+.panel h3{font-size:14px;margin:0;font-weight:650}
+.panel p{font-size:13px;color:#969da9;line-height:1.6;margin:0 0 22px}
+.grid{display:grid;grid-template-columns:repeat(2,minmax(0,1fr));gap:19px}
+.grid label{font-size:12px;color:#b9bdc6}
+.grid label span{display:block;margin:0 0 7px}
+.grid input{width:100%;border-radius:10px;border:1px solid #404753;background:#1b2028;color:#f6f3eb;font:600 15px Arial;padding:12px}
+.grid input:focus{outline:2px solid #d1aa66;outline-offset:2px}
+.divider{border:0;border-top:1px solid #30353d;margin:25px 0}
+.resultHeader{display:flex;justify-content:space-between;align-items:center;gap:8px}
+.status{font-size:10px;padding:7px 9px;border:1px solid #5a4b2f;color:#dec188;background:#342a1b;border-radius:30px;font-weight:700;white-space:nowrap}
+.status.positive{color:#9ddbb1;border-color:#385844;background:#192c23}
+.status.negative{color:#ec9a93;border-color:#6b3935;background:#2b1d1d}
+.label{margin-top:32px;font-size:11px;letter-spacing:.13em;color:#9fa5af;text-transform:uppercase}
+.big{font-size:58px;color:#e6c68a;letter-spacing:-.05em;font-weight:650;margin:10px 0 23px}
+.big.negative{color:#ec9a93}
+.metrics{display:grid;grid-template-columns:1fr 1fr;gap:24px;border-top:1px solid #323640;padding-top:22px}
+.metrics small{display:block;font-size:10px;letter-spacing:.1em;color:#979eaa}.metrics strong{display:block;font-size:21px;margin-top:7px}
+.verdict{margin-top:25px;padding:16px;border:1px solid #56472b;background:#2a241a;color:#e3cc9f;border-radius:10px;font-size:12px;line-height:1.6}
+.breakdown{border-top:1px solid #30353d;margin-top:26px;padding-top:17px}.breakdown div{display:flex;justify-content:space-between;gap:18px;padding:9px 0;font-size:13px;color:#a9b0bc}.breakdown b{color:#ecebe7}.breakdown div:last-child{border-top:1px solid #30353d;margin-top:12px;padding-top:15px;font-weight:700}.breakdown div:last-child b{color:#e6c68a}
+.promo{display:grid;grid-template-columns:minmax(0,1fr) auto;gap:20px;align-items:center;border:1px solid #56462d;background:linear-gradient(105deg,#211d18,#15171d);border-radius:18px;padding:30px;margin-top:22px}
+.promo h2{margin:0 0 9px;font-size:23px}.promo p{color:#aeb1b7;margin:0;max-width:610px;line-height:1.6;font-size:13px}
+.promo a{display:inline-block;color:#18140d;background:#dfbd7e;text-decoration:none;border-radius:9px;padding:14px 18px;font-size:12px;font-weight:700;white-space:nowrap}
+.fine{font-size:11px;color:#828a97;margin-top:24px;line-height:1.7}
+.link{color:#e4c68d;text-decoration:underline}
+@media(max-width:900px){.hero{grid-template-columns:1fr}.heroMark{display:none}.layout{grid-template-columns:1fr}.promo{grid-template-columns:1fr}}
+@media(max-width:580px){.wrap{padding:40px 15px 80px}.grid{grid-template-columns:1fr}.panel{padding:21px}.big{font-size:45px}}
