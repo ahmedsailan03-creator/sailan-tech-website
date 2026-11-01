@@ -33,6 +33,7 @@ export default function Header() {
           <Link href="/services" onClick={close}>Services</Link>
           <Link href="/plans" onClick={close}>Plans</Link>
           <Link href="/#process" onClick={close}>Process</Link>
+          <Link href="/tools/resale-calculator" onClick={close}>Free Tools</Link>
           <Link href="/about" onClick={close}>About</Link>
           <Link href="/contact" onClick={close}>Contact</Link>
           <Link href="/free-it-checkup" className="nav-button concept-nav-button" onClick={close}>
